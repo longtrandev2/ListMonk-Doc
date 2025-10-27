@@ -133,7 +133,9 @@ Có 2 loại danh sách:
 - **Single opt-in**: Người dùng được thêm vào là nhận ngay email.
 - **Double opt-in**: Người dùng phải **xác nhận qua email** trước khi nhận thư.
 ![alt text](img/list_overview.png)
+
 Tạo một list mới 
+
 ![alt text](img/list_new-5.png)
 ---
 
@@ -142,6 +144,7 @@ Tạo một list mới
 Ví dụ: chiến dịch “Giới thiệu sản phẩm mới” gửi đến tất cả khách hàng trong danh sách “Subscribers 2025”.
 
 ![alt text](img/campaigns_overview.png)
+
 Các mục ở phần campaigns:
 - **All campaigns** : Danh sách các campaign hiện có
 - **Create New** : Tạo các campaign mới
@@ -248,7 +251,7 @@ Các biểu thức được viết trong cặp dấu `{{ ... }}`, ví dụ:
 ```
 Các biểu thức giúp ta lấy ra các thông tin động để chèn vào Template(mẫu):
 Ví dụ: 
-- **Subscriber** "A" có name là "A" -> {{ .Subscriber.Name }}	sẽ trả ra "Ag", tương tự là B có tên là "B" thì sẽ trả ra B cho bên **template** hiển thị
+- **Subscriber** "A" có name là "A" -> {{ .Subscriber.Name }}	sẽ trả ra "A", tương tự là B có tên là "B" thì sẽ trả ra B cho bên **template** hiển thị
 
 ### Subscriber fields (Trường thông tin người đăng ký)
 
